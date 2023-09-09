@@ -64,8 +64,21 @@
     </tr>
 </table>
 
+<hr>
 
 
+<blockquote cite="https://stackoverflow.com/questions/5732740/how-to-embed-windows-media-player-wmv-movie-in-html"> <p>How to embed Windows Media Player ( WMV) Movie in HTML?</p> </blockquote >
+
+<pre>
+&lt;object type="video/x-ms-wmv" 
+    data="movie.wmv" 
+    width="320" height="260"&gt;
+    &lt;param name="src" 
+        value="movie.wmv" /&gt;
+    &lt;param name="autostart" value="true" /&gt;
+    &lt;param name="controller" value="true" /&gt;
+&lt;/object&gt;
+</pre>
 
 
 
